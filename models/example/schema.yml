@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "Simple model for demonstration"
+    columns:
+      - name: id
+        tests: [not_null, unique]
+
+  - name: my_second_dbt_model
+    description: "Selects from my_first_dbt_model"
+    columns:
+      - name: id
+        tests: [not_null]
