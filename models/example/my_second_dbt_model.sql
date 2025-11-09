@@ -1,3 +1,4 @@
+-- Submitted by: Rucha Bhosle (netid: rbhosle)
 -- Depends on the first model
 -- Uses ref() to link to my_first_dbt_model
 
